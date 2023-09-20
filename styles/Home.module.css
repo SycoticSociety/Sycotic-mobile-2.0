@@ -256,25 +256,21 @@
   transform: translateY(-2px); /* Add a slight upward lift on hover */
 }
 
-/* Center the iframe container */
-.iframeWrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+/* Center the iframe */
+.iframeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background overlay if desired */
-  z-index: 999; /* Set a high z-index to ensure it's above other content */
 }
 
 /* Style the iframe */
-.iframeWrapper iframe {
+.iframeContainer iframe {
   max-width: 100%;
-  width: 600px; /* Adjust the width as needed */
-  height: 600px; /* Adjust the height as needed */
+  width: 600px;
+  height: 600px;
   border: 0;
-  z-index: 1; /* Set a higher z-index to place it above other elements */
 }
+
+
+
