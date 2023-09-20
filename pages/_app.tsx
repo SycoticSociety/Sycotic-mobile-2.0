@@ -1,3 +1,4 @@
+ import type { AppProps } from "next/app";
 import styles from './Home.module.css'; // Import the CSS module
 import {
   ThirdwebProvider,
@@ -50,4 +51,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;   
+export default MyApp;  
