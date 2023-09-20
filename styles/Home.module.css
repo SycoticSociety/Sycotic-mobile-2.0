@@ -2,15 +2,15 @@
     width: 100%;
     padding: 0 1rem;
     margin: 0 auto;
-    height: 110vh;
+    height: 100vh; /* Change to 100vh to fit between header and navbar */
     background-image: url("/images/backgroundPurple.gif");
-    background-size: cover;
+    background-size: contain; /* Change to contain to prevent stretching */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top; /* Adjust positioning */
+    background-attachment: fixed; /* Keeps the background fixed */
     /* Other container styles here */
-    max-width: 2600px; /* Increased max-width to 2600px */
+    max-width: 2600px;
 }
-
 
 
 .gradientText0 {
