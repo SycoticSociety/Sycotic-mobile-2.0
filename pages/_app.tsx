@@ -1,4 +1,5 @@
- import type { AppProps } from "next/app";
+import type { AppProps } from "next/app";
+import iframeStyles from './iframeStyle.module.css';
 import styles from './Home.module.css'; // Import the CSS module
 import {
   ThirdwebProvider,
@@ -45,10 +46,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     >
       <Header />
     
-      <IframeComponent /> {/* Include the IframeComponent here */}
+      <div className={iframeStyles.container}>
+        <IframeComponent />
+      </div>
+      
       <Navbar />
     </ThirdwebProvider>
   );
 }
 
-export default MyApp;  
+export default MyApp;
