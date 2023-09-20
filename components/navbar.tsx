@@ -12,6 +12,11 @@ export default function Navbar() {
                 <p className={styles.navIconLabel}>Cronos</p>
             </Link>
 
+              <Link href="https://dexscreener.com/cronos/0x9fb3fa7be9ca04efdfb43d8cd4ed38752187aaf5" className={styles.navIcon}>
+                <Image src={"/dexScreener.png"} alt="" width={46} height={46}/>
+                <p className={styles.navIconLabel}>Liquidity</p>
+            </Link>
+
              <Link href="https://x.com/BrokeApeCronos?s=20" className={styles.navIcon}>
                 <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Twitter</p>
