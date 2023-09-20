@@ -1,13 +1,12 @@
 .container {
     width: 100%;
-    padding: 0 1rem;
+    padding: 30px 1rem; /* Add 30px top and bottom padding */
     margin: 0 auto;
-    height: 100vh; /* Change to 100vh to fit between header and navbar */
+    height: 110vh;
     background-image: url("/images/backgroundPurple.gif");
-    background-size: contain; /* Change to contain to prevent stretching */
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top; /* Adjust positioning */
-    background-attachment: fixed; /* Keeps the background fixed */
+    background-position: center;
     /* Other container styles here */
     max-width: 2600px;
 }
