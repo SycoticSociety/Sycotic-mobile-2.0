@@ -12,9 +12,9 @@ export default function Navbar() {
                 <p className={styles.navIconLabel}>Cronos</p>
             </Link>
 
-             <Link href="/" className={styles.navIcon}>
+             <Link href="https://x.com/BrokeApeCronos?s=20" className={styles.navIcon}>
                 <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
-                <p className={styles.navIconLabel}>Claim</p>
+                <p className={styles.navIconLabel}>Twitter</p>
             </Link>
             
             <Link href="/nfts" className={styles.navIcon}>
