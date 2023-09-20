@@ -22,9 +22,9 @@ export default function Navbar() {
                 <p className={styles.navIconLabel}>Twitter</p>
             </Link>
             
-            <Link href="/nfts" className={styles.navIcon}>
+            <Link href="/" className={styles.navIcon}>
                 <Image src={"/nft-icon.png"} alt="" width={40} height={40}/>
-                <p className={styles.navIconLabel}>Collection</p>
+                <p className={styles.navIconLabel}>Claim</p>
             </Link>
             <div className={styles.navIcon}>
             {address && (
