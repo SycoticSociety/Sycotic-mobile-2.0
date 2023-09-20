@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Home.module.css'; // Import the CSS module
+import styles from './Home.module.css';
 import {
   ThirdwebProvider,
   ConnectWallet,
@@ -12,6 +12,7 @@ import {
 import "../styles/globals.css";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
+import type { AppProps } from "next/app"; // Import the AppProps type
 
 const activeChain = "polygon";
 
@@ -30,7 +31,7 @@ function IframeComponent() {
   );
 }
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) { // Provide type annotations for Component and pageProps
   return (
     <ThirdwebProvider
       activeChain={activeChain}
@@ -46,7 +47,7 @@ function MyApp({ Component, pageProps }) {
       ]}
     >
       <Header />
-      <IframeComponent /> {/* Include the IframeComponent here */}
+      <IframeComponent />
       <Navbar />
     </ThirdwebProvider>
   );
