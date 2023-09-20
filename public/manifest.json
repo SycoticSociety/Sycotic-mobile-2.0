@@ -1,12 +1,12 @@
 {
-    "theme_color": "#8A2BE2",
+    "theme_color": "#FF8C00",
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Sycotic Society Mobile DApp",
-    "short_name": "Sycotic Mobile",
-    "description": "Sycotic Society mobile v1.0",
+    "name": "Broke Ape Cronos Mobile DApp",
+    "short_name": "Broke Mobile",
+    "description": "Broke Ape mobile v1.0",
     "icons": [
         {
             "src": "/icon-192x192.png",
