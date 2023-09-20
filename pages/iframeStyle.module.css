@@ -1,0 +1,17 @@
+/* iframeStyle.module.css */
+
+/* Center the iframe */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style the iframe */
+iframe {
+  max-width: 100%;
+  width: 100%;
+  height: 100%; /* Adjust the height as needed */
+  border: none;
+}
