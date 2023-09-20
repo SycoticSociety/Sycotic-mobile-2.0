@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       ]}
     >
       <Header />
-      <Component {...pageProps} />
+    
       <IframeComponent /> {/* Include the IframeComponent here */}
       <Navbar />
     </ThirdwebProvider>
