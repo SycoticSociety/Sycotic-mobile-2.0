@@ -6,8 +6,8 @@ export default function Header() {
         <div className={styles.header}>
             <Image src={"/images/Thirdweb-Icon-Circle-Black-08 1.gif"} alt="" height={60} width={60}/>
             <p style={{ fontSize: 'larger' }}>
-                <a href="https://www.sycoticsociety.com" style={{ color: '#BA55D3' }}>
-                    Sycotic Society Marketplace Home
+                <a href="https://www.sycoticsociety.com" style={{ color: '#FFD700' }}>
+                    Broke Ape Cronos Club Mobile
                 </a>
             </p>
         </div>
