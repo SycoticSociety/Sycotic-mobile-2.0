@@ -7,7 +7,7 @@ export default function Navbar() {
     const address = useAddress();
 
     const openLinkInNewWindow = (linkUrl: string) => {
-        window.open(linkUrl, "_blank", "width=800,height=600");
+        window.open(linkUrl, "_blank", "width=700,height=600");
     };
 
     return (
