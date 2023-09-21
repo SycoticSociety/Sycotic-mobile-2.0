@@ -12,7 +12,7 @@ import "../styles/globals.css";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
 
-const activeChain = "polygon";
+const activeChain = "Cronos";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
