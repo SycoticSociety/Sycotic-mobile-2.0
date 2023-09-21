@@ -30,11 +30,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         }),
       ]}
     >
-      <Header />
-          <Component {...pageProps} />
-       
-          <Navbar />
-         <div className="minting-text">Minting Now!</div>
+      <div className="container">
+        <Header />
+        <Component {...pageProps} />
+        <Navbar />
+        <div className="minting-text">Minting Now!</div>
+      </div>
     </ThirdwebProvider>
   );
 }
