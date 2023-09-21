@@ -7,7 +7,7 @@ export default function Navbar() {
     const address = useAddress();
 
     // Function to open external links in a new window
-    const openInNewWindow = (url) => {
+    const openInNewWindow = (url: string) => {
         window.open(url, "_blank");
     };
 
