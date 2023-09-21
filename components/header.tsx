@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Header() {
     const openLinkInNewWindow = (linkUrl: string) => {
-        window.open(linkUrl, "_blank", "width=800,height=600");
+        window.open(linkUrl, "_blank", "width=700,height=600");
     };
 
     return (
