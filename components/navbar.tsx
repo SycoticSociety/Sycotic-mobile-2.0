@@ -1,6 +1,7 @@
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
     const address = useAddress();
@@ -12,52 +13,54 @@ export default function Navbar() {
 
     return (
         <div className={styles.navbar}>
-            <div
-                className={styles.navIcon}
-                onClick={() => openInNewWindow("https://cronoscan.com/token/0x3e68ea1588e32e51d98dbda6ea05128513ecc713")}
-            >
-                <Image src={"/cronos-icon.png"} alt="" width={31} height={41}/>
-                <p className={styles.navIconLabel}>Cronos</p>
-            </div>
+            <Link href="/cronos" passHref>
+                <a className={styles.navIcon}>
+                    <Image src={"/cronos-icon.png"} alt="" width={31} height={41} />
+                    <p className={styles.navIconLabel}>Cronos</p>
+                </a>
+            </Link>
 
-            <div
-                className={styles.navIcon}
-                onClick={() => openInNewWindow("https://dexscreener.com/cronos/0x9fb3fa7be9ca04efdfb43d8cd4ed38752187aaf5")}
-            >
-                <Image src={"/dexScreener.png"} alt="" width={46} height={46}/>
-                <p className={styles.navIconLabel}>Liquidity</p>
-            </div>
+            <Link href="/liquidity" passHref>
+                <a className={styles.navIcon}>
+                    <Image src={"/dexScreener.png"} alt="" width={46} height={46} />
+                    <p className={styles.navIconLabel}>Liquidity</p>
+                </a>
+            </Link>
 
-            <div
+            <Link href="/twitter" passHref>
+                <a className={styles.navIcon}>
+                    <Image src={"/claim-icon.png"} alt="" width={46} height={46} />
+                    <p className={styles.navIconLabel}>Twitter</p>
+                </a>
+            </Link>
+
+            <a
+                href="https://broke-ape-token-mint.vercel.app/"
                 className={styles.navIcon}
-                onClick={() => openInNewWindow("https://x.com/BrokeApeCronos?s=20")}
+                onClick={(e) => {
+                    e.preventDefault();
+                    openInNewWindow("https://broke-ape-token-mint.vercel.app/");
+                }}
             >
-                <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
-                <p className={styles.navIconLabel}>Twitter</p>
-            </div>
-            
-            <div
-                className={styles.navIcon}
-                onClick={() => openInNewWindow("https://broke-ape-token-mint.vercel.app/")}
-            >
-                <Image src={"/nft-icon.png"} alt="" width={40} height={40}/>
+                <Image src={"/nft-icon.png"} alt="" width={40} height={40} />
                 <p className={styles.navIconLabel}>Mint Now</p>
-            </div>
+            </a>
+
             <div className={styles.navIcon}>
-            {address && (
-                <ConnectWallet
-                    btnTitle="Login"
-                    detailsBtn={() => {
-                        return (
-                            <div>
-                                <Image src={"/profile-icon.png"} alt="" width={40} height={40}/>
-                                <p className={styles.navIconLabel}>Profile</p>
-                            </div>
-                        )
-                    }}
-                />
-            )}
+                {address && (
+                    <ConnectWallet
+                        btnTitle="Login"
+                        detailsBtn={() => {
+                            return (
+                                <div>
+                                    <Image src={"/profile-icon.png"} alt="" width={40} height={40} />
+                                    <p className={styles.navIconLabel}>Profile</p>
+                                </div>
+                            );
+                        }}
+                    />
+                )}
             </div>
         </div>
-    )
+    );
 }
