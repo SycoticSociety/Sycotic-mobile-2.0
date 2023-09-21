@@ -1,3 +1,4 @@
+import React from "react";
 import type { AppProps } from "next/app";
 import {
   ThirdwebProvider,
@@ -32,8 +33,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
           <Component {...pageProps} />
        
-      <Navbar />
-    
+          <Navbar />
+         <div className="minting-text">Minting Now!</div>
     </ThirdwebProvider>
   );
 }
