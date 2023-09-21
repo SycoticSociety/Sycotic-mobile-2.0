@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Navbar() {
     const address = useAddress();
 
-    const openLinkInNewWindow = (linkUrl) => {
+    const openLinkInNewWindow = (linkUrl: string) => {
         window.open(linkUrl, "_blank");
     };
 
