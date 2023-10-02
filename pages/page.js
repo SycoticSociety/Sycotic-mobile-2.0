@@ -18,7 +18,7 @@ export default function Home() {
   height="700px"
   style={{
     maxWidth: '100%',
-    marginLeft: '20px' // Add this line to move the iframe to the right
+    marginLeft: '28px' // Add this line to move the iframe to the right
   }}
   frameBorder="0"
 ></iframe>
