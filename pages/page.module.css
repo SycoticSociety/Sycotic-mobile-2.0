@@ -115,14 +115,14 @@
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
-  width: 480px;
+  width: 500px;
   height: 360px;
   margin-left: -400px;
 }
 
 .center::after {
   background: var(--primary-glow);
-  width: 240px;
+  width: 350px;
   height: 180px;
   z-index: -1;
 }
@@ -165,8 +165,8 @@
 
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
+    margin-bottom: 110px;
+    max-width: 450px;
     text-align: center;
   }
 
