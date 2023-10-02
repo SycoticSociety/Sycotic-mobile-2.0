@@ -109,6 +109,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  overflow: auto; /* or overflow: visible; */
 }
 
 .center::before {
