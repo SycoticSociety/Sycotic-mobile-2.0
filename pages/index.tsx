@@ -24,13 +24,13 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container} style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       <a href="#" onClick={handleImageClick}>
-        <div style={{ position: "relative", width: "75%", height: "75%" }}>
+        <div style={{ position: "relative", width: "75%", height: "75%", left: "40px" }}> {/* Added left: "40px" */}
           <img
             src="/images/Thirdweb-Icon-Circle-Black-08 1.gif" // Replace with your image URL
             alt="Image Description"
             style={{ width: "100%", height: "100%" }}
           />
-          <div style={{ position: "absolute", bottom: "45px", left: "0", right: "0", textAlign: "center", color: "white", fontSize: "20px" }}>
+          <div style={{ position: "absolute", bottom: "30px", left: "0", right: "0", textAlign: "center", background: "rgba(0, 0, 0, 0.7)", color: "white", fontSize: "20px" }}>
             Click to Buy
           </div>
         </div>
