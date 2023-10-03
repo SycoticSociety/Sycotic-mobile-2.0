@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             alt="Image Description"
             style={{ width: "100%", height: "100%" }}
           />
-          <div style={{ position: "absolute", bottom: "30px", left: "0", right: "0", textAlign: "center", background: "rgba(0, 0, 0, 0.7)", color: "white", fontSize: "20px" }}>
+          <div style={{ position: "absolute", bottom: "30px", left: "0", right: "0", textAlign: "center", color: "white", fontSize: "20px" }}>
             Click to Buy
           </div>
         </div>
