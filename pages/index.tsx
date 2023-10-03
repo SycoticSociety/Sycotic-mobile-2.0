@@ -18,14 +18,14 @@ const Home: NextPage = () => {
 
   const handleImageClick = () => {
     // Redirect to the specified URL when the image is clicked
-    window.location.href = "https://broke-ape-cc-moblie.vercel.app/";
+    window.location.href = "https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713";
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       <a href="#" onClick={handleImageClick}>
         <img
-          src=" /images/Thirdweb-Icon-Circle-Black-08 1.gif " // Replace with your image URL
+          src="/images/Thirdweb-Icon-Circle-Black-08 1.gif" // Replace with your image URL
           alt="Image Description"
         />
       </a>
