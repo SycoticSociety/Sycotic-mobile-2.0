@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <img
           src="/images/Thirdweb-Icon-Circle-Black-08 1.gif" // Replace with your image URL
           alt="Image Description"
-          style={{ width: "75%", height: "75%", marginLeft: "30px" }}
+          style={{ width: "75%", height: "75%", marginLeft: "45px" }}
         />
       </a>
     </div>
