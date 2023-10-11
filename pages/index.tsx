@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
   const handleImageClick = () => {
     // Redirect to the specified URL when the image is clicked
-    window.location.href = "https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713";
+    window.location.href = "https://swap.crodex.app/#/swap?outputCurrency=0x4E2E7700C8f8A414b4AF8828f54330a304B6625d";
   };
 
   return (
