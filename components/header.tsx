@@ -14,7 +14,7 @@ export default function Header() {
             </a>
             <p style={{ fontSize: 'larger' }}>
                 <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713")} style={{ color: '#000000', cursor: 'pointer' }}>
-                    Broke Ape Cronos Club Crodex!
+                    Free Coin Cronos Crodex!
                 </a>
             </p>
         </div>
