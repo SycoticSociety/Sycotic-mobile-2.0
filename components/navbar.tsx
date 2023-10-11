@@ -12,17 +12,17 @@ export default function Navbar() {
 
     return (
         <div className={styles.navbar}>
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://cronoscan.com/token/0x3e68ea1588e32e51d98dbda6ea05128513ecc713")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://cronoscan.com/token/0x4E2E7700C8f8A414b4AF8828f54330a304B6625d")}>
                 <Image src={"/cronos-icon.png"} alt="" width={31} height={41}/>
                 <p className={styles.navIconLabel}>Cronos</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://dexscreener.com/cronos/0x9fb3fa7be9ca04efdfb43d8cd4ed38752187aaf5")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://dexscreener.com/cronos/0x206f523fa33df3a750f82049d1118f9da09e0feb")}>
                 <Image src={"/dexScreener.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Liquidity</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://x.com/BrokeApeCronos?s=20")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://twitter.com/FreeCoinCronos")}>
                 <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Twitter</p>
             </div>
