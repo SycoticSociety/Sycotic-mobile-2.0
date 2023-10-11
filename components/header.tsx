@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <div className={styles.header}>
-            <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713")} style={{ cursor: 'pointer' }}>
+            <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0x4E2E7700C8f8A414b4AF8828f54330a304B6625d")} style={{ cursor: 'pointer' }}>
                 <Image src={"/images/Thirdweb-Icon-Circle-Black-08 1.gif"} alt="" height={60} width={60}/>
             </a>
             <p style={{ fontSize: 'larger' }}>
