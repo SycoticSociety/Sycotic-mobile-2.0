@@ -1,12 +1,12 @@
 {
-    "theme_color": "#FF8C00",
+    "theme_color": "#4682B4",
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Broke Ape Cronos Mobile DApp",
-    "short_name": "Broke Mobile",
-    "description": "Broke Ape mobile v1.0",
+    "name": "Free Coin Cronos Mobile DApp",
+    "short_name": "Free Mobile",
+    "description": "Free Coin mobile v1.0",
     "icons": [
         {
             "src": "/icon-192x192.png",
