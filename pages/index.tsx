@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container} style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       <a href="#" onClick={handleImageClick}>
-        <div style={{ position: "relative", width: "40%", height: "40%", left: "170px" }}> {/* Added left: "40px" */}
+        <div style={{ position: "relative", width: "40%", height: "40%", left: "160px" }}> {/* Added left: "40px" */}
           <img
             src="/images/Thirdweb-Icon-Circle-Black-08 1.gif" // Replace with your image URL
             alt="Image Description"
