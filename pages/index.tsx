@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   const { data: contractMetadata } = useContractMetadata(contract);
 
   const handleImageClick = () => {
-    window.open("https://swap.crodex.app/#/swap?outputCurrency=0x4E2E7700C8f8A414b4AF8828f54330a304B6625d", "_blank", "width=700,height=600");
+    window.open("https://swap.crodex.app/#/swap?outputCurrency=0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59", "_blank", "width=700,height=600");
   };
 
   return (
