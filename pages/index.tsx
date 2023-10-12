@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <a href="#" onClick={handleImageClick}>
         <div style={{ position: "relative", width: "35%", height: "35%", left: "165px" }}> {/* Added left: "40px" */}
           <img
-            src="/images/Thirdweb-Icon-Circle-Black-08 1.gif" // Replace with your image URL
+            src="/images/Thirdweb-Icon-Circle-Black-08 1 (3).gif" // Replace with your image URL
             alt="Image Description"
             style={{ width: "100%", height: "100%" }}
           />
