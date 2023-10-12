@@ -17,7 +17,7 @@ export default function Navbar() {
                 <p className={styles.navIconLabel}>Cronos</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://www.geckoterminal.com/cro/pools/0x172ef983f851bcdbf2a26a14756955a9c5954b7d?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://dexscreener.com/cronos/0x172ef983f851bcdbf2a26a14756955a9c5954b7d")}>
                 <Image src={"/dexScreener.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Liquidity</p>
             </div>
