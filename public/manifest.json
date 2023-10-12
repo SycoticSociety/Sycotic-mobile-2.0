@@ -1,12 +1,12 @@
 {
-    "theme_color": "#4682B4",
+    "theme_color": "#B22222",
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Free Coin Cronos Mobile DApp",
-    "short_name": "Free Mobile",
-    "description": "Free Coin mobile v1.0",
+    "name": "Sycotic Society Mobile DApp",
+    "short_name": "Sycotic Society Mobile",
+    "description": "Sycotic Society mobile v1.0",
     "icons": [
         {
             "src": "/icon-192x192.png",
