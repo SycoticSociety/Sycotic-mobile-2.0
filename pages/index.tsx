@@ -23,14 +23,16 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container} style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
       <a href="#" onClick={handleImageClick}>
-        <div style={{ position: "relative", width: "35%", height: "35%", left: "145px", marginTop: "225px" }}> {/* Added marginTop */}
-          <img
-            src="/images/Thirdweb-Icon-Circle-Black-08 1 (3).gif" // Replace with your image URL
-            alt="Image Description"
-            style={{ width: "100%", height: "100%" }}
-          />
-          <div style={{ position: "absolute", bottom: "30px", left: "0", right: "0", textAlign: "center", color: "white", fontSize: "20px" }}>
-            Click to Buy
+        <div style={{ display: "grid", placeItems: "center", width: "100%", height: "100%" }}>
+          <div>
+            <img
+              src="/images/Thirdweb-Icon-Circle-Black-08 1 (3).gif" // Replace with your image URL
+              alt="Image Description"
+              style={{ width: "100%", height: "100%" }}
+            />
+            <div style={{ textAlign: "center", color: "white", fontSize: "20px" }}>
+              Click to Buy
+            </div>
           </div>
         </div>
       </a>
