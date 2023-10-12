@@ -27,7 +27,7 @@ export default function Navbar() {
                 <p className={styles.navIconLabel}>Twitter</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://nextjs-beta-two-45.vercel.app/")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://sycotic-mint-apoc.vercel.app/")}>
                 <Image src={"/nft-icon.png"} alt="" width={40} height={40}/>
                 <p className={styles.navIconLabel}>Mint Now</p>
             </div>
