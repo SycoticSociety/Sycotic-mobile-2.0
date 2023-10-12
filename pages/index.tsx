@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <img
               src="/images/Thirdweb-Icon-Circle-Black-08 1 (3).gif" // Replace with your image URL
               alt="Image Description"
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: "40%", height: "40%" }}  // Adjust the width and height here
             />
             <div style={{ textAlign: "center", color: "white", fontSize: "20px" }}>
               Click to Buy
