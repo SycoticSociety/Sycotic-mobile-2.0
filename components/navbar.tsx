@@ -12,17 +12,17 @@ export default function Navbar() {
 
     return (
         <div className={styles.navbar}>
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://cronoscan.com/token/0x4E2E7700C8f8A414b4AF8828f54330a304B6625d")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://cronoscan.com/token/0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59")}>
                 <Image src={"/cronos-icon.png"} alt="" width={31} height={41}/>
                 <p className={styles.navIconLabel}>Cronos</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://dexscreener.com/cronos/0x206f523fa33df3a750f82049d1118f9da09e0feb")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://www.geckoterminal.com/cro/pools/0x172ef983f851bcdbf2a26a14756955a9c5954b7d?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults")}>
                 <Image src={"/dexScreener.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Liquidity</p>
             </div>
 
-            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://twitter.com/FreeCoinCronos")}>
+            <div className={styles.navIcon} onClick={() => openLinkInNewWindow("https://twitter.com/SycoticSociety")}>
                 <Image src={"/claim-icon.png"} alt="" width={46} height={46}/>
                 <p className={styles.navIconLabel}>Twitter</p>
             </div>
