@@ -14,7 +14,7 @@ export default function Header() {
             </a>
             <p style={{ fontSize: 'larger' }}>
                 <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59 ")} style={{ color: '#000000', cursor: 'pointer' }}>
-                      🔥Sycotic 💢 Society🔥 
+                      💢Sycotic 💢 Society💢 
                 </a>
             </p>
         </div>
