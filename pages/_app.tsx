@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Header />
         <Component {...pageProps} />
         <Navbar />
-        <div className="minting-text">Minting Now!</div>
+        <div className="minting-text"></div>
       </div>
     </ThirdwebProvider>
   );
