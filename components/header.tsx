@@ -13,7 +13,7 @@ export default function Header() {
                 <Image src={"/images/Thirdweb-Icon-Circle-Black-08 1 (3).gif"} alt="" height={50} width={50}/>
             </a>
             <p style={{ fontSize: 'larger' }}>
-                <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713")} style={{ color: '#000000', cursor: 'pointer' }}>
+                <a onClick={() => openLinkInNewWindow("https://swap.crodex.app/#/swap?outputCurrency=0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59 ")} style={{ color: '#000000', cursor: 'pointer' }}>
                      Sycotic Society 🔥 🔥 🔥 🚒 
                 </a>
             </p>
